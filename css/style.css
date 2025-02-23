@@ -644,3 +644,8 @@ label {
   height: auto;             /* 保持图像比例 */
 }
 
+.small-text p {
+  font-size: 12px;  /* 或其他你希望的大小 */
+  color: gray;      /* 灰色字体 */
+  margin-top: 10px; /* 距离按钮稍微有点间距 */
+}
