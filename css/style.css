@@ -649,3 +649,95 @@ label {
   color: gray;      /* 灰色字体 */
   margin-top: 10px; /* 距离按钮稍微有点间距 */
 }
+
+/* Header.css */
+
+/* 遮罩层样式 */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* 弹出框样式 */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 关闭按钮 */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.close-btn:hover {
+  color: red;
+}
+
+/* 输入框样式 */
+.modal-input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.modal-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* 错误提示 */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* 按钮样式 */
+/* .btn-custom {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 80%;
+} */
+
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+
+/* 底部联系信息 */
+.contact-info {
+  font-size: 12px;
+  color: #555;
+  margin-top: 20px;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
